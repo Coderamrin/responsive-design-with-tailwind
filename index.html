@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header
+      class="bg-lightGreen px-5 py-2 flex justify-between items-center md:px-16 fixed w-full"
+    >
+      <a href="#" class="logo font-bold text-2xl">Blazing</a>
+
+      <nav
+        class="nav absolute top-[48px] bg-lightGreen w-full h-screen flex flex-col items-center pt-5 duration-500 md:static md:flex-row md:h-auto md:w-auto md:justify-between md:pt-0 left-0 left-[-100%]"
+      >
+        <a href="#" class="nav-link pb-4 hover:text-accent md:pb-0 md:pr-4"
+          >Home</a
+        >
+        <a href="#" class="nav-link pb-4 hover:text-accent md:pb-0 md:pr-4"
+          >Features</a
+        >
+        <a href="#" class="nav-link pb-4 hover:text-accent md:pb-0 md:pr-4"
+          >Testimonials</a
+        >
+        <a href="#" class="nav-link pb-4 hover:text-accent md:pb-0 md:pr-4"
+          >Pricing</a
+        >
+        <a href="#" class="nav-link pb-4 hover:text-accent md:pb-0 md:pr-4"
+          >Blog</a
+        >
+
+        <button class="bg-accent px-6 py-2 rounded-full text-white">
+          Signup
+        </button>
+      </nav>
+
+      <button class="toggler text-2xl md:hidden">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </header>
+
+    <section class="hero pt-[12rem] px-10">
+      <div class="text-center px-5 lg:px-[18rem]">
+        <h1 class="text-5xl pb-4">
+          Best Tool For Managing Projects And Files.
+        </h1>
+        <p class="pb-4">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s.
+        </p>
+
+        <button class="bg-accent px-8 py-3 rounded-full text-white">
+          Get Started
+        </button>
+      </div>
+
+      <div class="py-10">
+        <img src="./images/hero-img.png" alt="" class="mx-auto" />
+      </div>
+    </section>
+
+    <section class="brands py-20">
+      <h3 class="text-center mb-5">Trusted by the industry leaders.</h3>
+
+      <div class="brands-grid grid md:grid-cols-5 px-[10rem]">
+        <div class="mx-auto mb-4 md:mb-0">
+          <img src="./images/amazon.svg" alt="" />
+        </div>
+        <div class="mx-auto mb-4 md:mb-0">
+          <img src="./images/google.svg" alt="" />
+        </div>
+        <div class="mx-auto mb-4 md:mb-0">
+          <img src="./images/intel.svg" alt="" />
+        </div>
+        <div class="mx-auto mb-4 md:mb-0">
+          <img src="./images/microsoft.svg" alt="" />
+        </div>
+        <div class="mx-auto mb-4 md:mb-0">
+          <img src="./images/amazon.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="features py-20 border-t-2 border-primary">
+      <div class="feature-header section-header text-center pb-10">
+        <h3 class="subtitle">features</h3>
+        <h2 class="section-title">Features You Need To Manage Projects.</h2>
+      </div>
+
+      <div class="features-grid grid md:grid-cols-3 gap-10 px-20">
+        <div class="features-item bg-primary rounded-lg px-5 py-8">
+          <div
+            class="bg-white text-accent px-5 py-4 rounded-md inline-block mb-4 text-3xl"
+          >
+            <i class="fa-solid fa-bomb"></i>
+          </div>
+          <h4 class="text-2xl font-medium mb-3">Fastest Way To Add Project</h4>
+          <p class="text-text">
+            It is a long established fact that a reader will be distracted by
+            the readable.
+          </p>
+        </div>
+        <div class="features-item bg-primary rounded-lg px-5 py-8">
+          <div
+            class="bg-white text-accent px-5 py-4 rounded-md inline-block mb-4 text-3xl"
+          >
+            <i class="fa-solid fa-bolt-lightning"></i>
+          </div>
+          <h4 class="text-2xl font-medium mb-3">See Who Is Doing What Task</h4>
+          <p class="text-text">
+            It is a long established fact that a reader will be distracted by
+            the readable.
+          </p>
+        </div>
+        <div class="features-item bg-primary rounded-lg px-5 py-8">
+          <div
+            class="bg-white text-accent px-5 py-4 rounded-md inline-block mb-4 text-3xl"
+          >
+            <i class="fa-solid fa-arrow-down-up-across-line"></i>
+          </div>
+          <h4 class="text-2xl font-medium mb-3">Fastest Way To Add Project</h4>
+          <p class="text-text">
+            It is a long established fact that a reader will be distracted by
+            the readable.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="steps p-20">
+      <div
+        class="steps-items mb-16 grid md:grid-cols-2 justify-between items-center gap-10"
+      >
+        <div class="steps-info">
+          <h4 class="subtitle">STEP#1</h4>
+
+          <h3 class="section-title">Register & Add Your Team Members</h3>
+          <p class="description">
+            Cupiditate eaque aut voluptatum dolor in distinctio sed est
+            provident. Dolores suscipit minima perspiciatis. Assumenda ut
+            molestiae. Laudantium rem reprehenderit delectus et commodi. Quis
+            voluptas molestias occaecati voluptatem a occaecati.
+          </p>
+          <button class="btn mt-8">Get Started</button>
+        </div>
+        <div class="steps-img mx-auto">
+          <img src="./images/features-1.png" alt="" />
+        </div>
+      </div>
+      <div
+        class="steps-items mb-16 grid md:grid-cols-2 justify-between items-center gap-10"
+      >
+        <div class="steps-img mx-auto">
+          <img src="./images/features-2.png" alt="" />
+        </div>
+        <div class="steps-info">
+          <h4 class="subtitle">STEP#2</h4>
+
+          <h3 class="section-title">
+            Add The Task To The Board & Assign To A Member
+          </h3>
+          <p class="description">
+            Cupiditate eaque aut voluptatum dolor in distinctio sed est
+            provident. Dolores suscipit minima perspiciatis. Assumenda ut
+            molestiae. Laudantium rem reprehenderit delectus et commodi. Quis
+            voluptas molestias occaecati voluptatem a occaecati.
+          </p>
+          <button class="btn mt-8">Get Started</button>
+        </div>
+      </div>
+      <div
+        class="steps-items mb-16 grid md:grid-cols-2 justify-between items-center gap-10"
+      >
+        <div class="steps-info">
+          <h4 class="subtitle">STEP#3</h4>
+
+          <h3 class="section-title">Get The Assigned Work & Give Feadback</h3>
+          <p class="description">
+            Cupiditate eaque aut voluptatum dolor in distinctio sed est
+            provident. Dolores suscipit minima perspiciatis. Assumenda ut
+            molestiae. Laudantium rem reprehenderit delectus et commodi. Quis
+            voluptas molestias occaecati voluptatem a occaecati.
+          </p>
+          <button class="btn mt-8">Get Started</button>
+        </div>
+        <div class="steps-img mx-auto">
+          <img src="./images/features-3.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="testimonials bg-black p-20 grid md:grid-cols-2 gap-10 justify-between"
+    >
+      <div class="testimonial-item bg-white px-8 py-6 rounded-md">
+        <p>
+          Vero officia quia illo corrupti earum nobis alias consequatur. Impedit
+          quas et et. Eum sed est iure alias soluta. Facere tempore itaque.
+          Aspernatur eaque architecto voluptatibus sapiente voluptate. Facere
+          ducimus eligendi aut aut esse perspiciatis.
+        </p>
+
+        <h4 class="font-bold pt-8 pb-1">Aaron Yundt</h4>
+        <p class="pb-5">CEO @Quick</p>
+
+        <img src="images/testimonial-img-1.png" alt="" />
+      </div>
+      <div class="testimonial-item bg-white px-8 py-6 rounded-md">
+        <p>
+          Vero officia quia illo corrupti earum nobis alias consequatur. Impedit
+          quas et et. Eum sed est iure alias soluta. Facere tempore itaque.
+          Aspernatur eaque architecto voluptatibus sapiente voluptate. Facere
+          ducimus eligendi aut aut esse perspiciatis.
+        </p>
+
+        <h4 class="font-bold pt-8 pb-1">Jhon Doe</h4>
+        <p class="pb-5">CEO @Quick</p>
+
+        <img src="images/testimonial-img-2.png" alt="" />
+      </div>
+    </section>
+
+    <section class="pricing p-20">
+      <div class="pricing-header section-header text-center pb-10">
+        <h3 class="subtitle">Pricing</h3>
+        <h2 class="section-title">Simple & Transparent Pricing</h2>
+        <p class="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+          dolorum
+        </p>
+      </div>
+
+      <div class="pricing-grid grid md:grid-cols-3 gap-10 md:px-[10rem]">
+        <div
+          class="pricing-item hover:scale-105 duration-500 rounded-md text-center bg-primary py-8"
+        >
+          <h4 class="text-3xl font-bold mb-4">Basic</h4>
+          <p class="pb-5">
+            <span class="text-2xl font-bold mb-8"> $0 </span> /month
+          </p>
+
+          <ul>
+            <li>Lorem ipsum dolor</li>
+            <li>Lorem ipsum dare</li>
+            <li>sit amet cons</li>
+            <li>Ipsum has</li>
+          </ul>
+
+          <button class="btn mt-16">Get Started</button>
+        </div>
+        <div
+          class="pricing-item hover:scale-105 duration-500 rounded-md text-center bg-lightGreen py-8"
+        >
+          <h4 class="text-3xl font-bold mb-4">Business</h4>
+          <p class="pb-5">
+            <span class="text-2xl font-bold mb-8"> $0 </span> /month
+          </p>
+
+          <ul>
+            <li>Lorem ipsum dolor</li>
+            <li>Lorem ipsum dare</li>
+            <li>sit amet cons</li>
+            <li>Ipsum has</li>
+          </ul>
+
+          <button class="btn mt-16">Get Started</button>
+        </div>
+        <div
+          class="pricing-item hover:scale-105 duration-500 rounded-md text-center bg-primary py-8"
+        >
+          <h4 class="text-3xl font-bold mb-4">Enterprise</h4>
+          <p class="pb-5">
+            <span class="text-2xl font-bold mb-8"> $0 </span> /month
+          </p>
+
+          <ul>
+            <li>Lorem ipsum dolor</li>
+            <li>Lorem ipsum dare</li>
+            <li>sit amet cons</li>
+            <li>Ipsum has</li>
+          </ul>
+
+          <button class="btn mt-16">Get Started</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="team p-20">
+      <div class="team-header section-header text-center pb-10">
+        <h3 class="subtitle">Team</h3>
+        <h2 class="section-title">Meet People Behind Blazing</h2>
+        <p class="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+          dolorum
+        </p>
+      </div>
+
+      <div class="team-grid grid md:grid-cols-4 gap-10">
+        <div class="team-item text-center">
+          <img src="./images/team-1.png" alt="" class="mx-auto" />
+          <h4 class="font-bold text-1xl">Dr. Angel Roberts</h4>
+          <div class="text-accent text-2xl mt-2">
+            <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+            <a> <i class="fa-brands fa-instagram"></i></a>
+            <a><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="team-item text-center">
+          <img src="./images/team-2.png" alt="" class="mx-auto" />
+          <h4 class="font-bold text-1xl">Dr. Angel Roberts</h4>
+          <div class="text-accent text-2xl mt-2">
+            <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+            <a> <i class="fa-brands fa-instagram"></i></a>
+            <a><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="team-item text-center">
+          <img src="./images/team-3.png" alt="" class="mx-auto" />
+          <h4 class="font-bold text-1xl">Dr. Angel Roberts</h4>
+          <div class="text-accent text-2xl mt-2">
+            <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+            <a> <i class="fa-brands fa-instagram"></i></a>
+            <a><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="team-item text-center">
+          <img src="./images/team-4.png" alt="" class="mx-auto" />
+          <h4 class="font-bold text-1xl">Dr. Angel Roberts</h4>
+          <div class="text-accent text-2xl mt-2">
+            <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+            <a> <i class="fa-brands fa-instagram"></i></a>
+            <a><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog py-20 px-[10rem]">
+      <div class="blog-header section-header text-center pb-10">
+        <h3 class="subtitle">Blog</h3>
+        <h2 class="section-title">Check Our Latest News & Articles</h2>
+        <p class="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+          dolorum
+        </p>
+      </div>
+
+      <div class="blog-grid grid md:grid-cols-3 gap-10">
+        <div class="blog-item">
+          <img src="./images/blog-1.png" alt="" />
+          <p class="pt-4">
+            Oct 25, 2022 By <a href="#" class="text-accent"> Jhon Doe </a>
+          </p>
+
+          <p class="py-6">
+            Sed Perspiciatis Voluptatem, Quas Laudantium Doloribus Eveniet Enim.
+            Read More.
+          </p>
+          <button class="text-accent">Read More</button>
+        </div>
+        <div class="blog-item">
+          <img src="./images/blog-2.png" alt="" />
+          <p class="pt-4">
+            Oct 25, 2022 By <a href="#" class="text-accent"> Jhon Doe </a>
+          </p>
+
+          <p class="py-6">
+            Sed Perspiciatis Voluptatem, Quas Laudantium Doloribus Eveniet Enim.
+            Read More.
+          </p>
+          <button class="text-accent">Read More</button>
+        </div>
+        <div class="blog-item">
+          <img src="./images/blog-3.png" alt="" />
+          <p class="pt-4">
+            Oct 25, 2022 By <a href="#" class="text-accent"> Jhon Doe </a>
+          </p>
+
+          <p class="py-6">
+            Sed Perspiciatis Voluptatem, Quas Laudantium Doloribus Eveniet Enim.
+            Read More.
+          </p>
+          <button class="text-accent">Read More</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer grid md:grid-cols-4 gap-10 p-20">
+      <div class="links">
+        <h4 class="text-2xl font-bold pb-4">Features</h4>
+        <ul>
+          <li>Hero</li>
+          <li>Features</li>
+          <li>Options</li>
+          <li>Blog</li>
+          <li>Pricing</li>
+          <li>Testimonials</li>
+        </ul>
+      </div>
+      <div class="links">
+        <h4 class="text-2xl font-bold pb-4">Sercices</h4>
+        <ul>
+          <li>Hero</li>
+          <li>Features</li>
+          <li>Options</li>
+          <li>Blog</li>
+        </ul>
+      </div>
+      <div class="links">
+        <h4 class="text-2xl font-bold pb-4">Important Links</h4>
+        <ul>
+          <li>Hero</li>
+          <li>Features</li>
+          <li>Options</li>
+          <li>Blog</li>
+          <li>Pricing</li>
+          <li>Testimonials</li>
+        </ul>
+      </div>
+      <div class="social mt-5">
+        <a
+          class="bg-accent text-white px-5 text-2xl py-4 rounded-full mx-2 inline-block"
+          href="#"
+        >
+          <i class="fa-brands fa-twitter"></i
+        ></a>
+        <a
+          class="bg-accent text-white px-5 text-2xl py-4 rounded-full mx-2 inline-block"
+        >
+          <i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          class="bg-accent text-white px-5 text-2xl py-4 rounded-full mx-2 inline-block"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

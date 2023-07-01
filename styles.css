@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Inter, Sans-serif;
+}
+
+.btn {
+    @apply bg-accent px-6 py-2 rounded-full text-white;
+}
+
+.hero {
+    background-image: url('../images/hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+
+.subtitle {
+    @apply bg-primary text-accent py-3 px-8 inline-block uppercase font-bold rounded-full 
+}
+
+.section-title {
+    @apply text-3xl font-medium  py-4
+}
+
+
+.description {
+    @apply text-text
+}
+
+
+ .team {
+    background-image: linear-gradient(to bottom, #e1f9f1, #e6fbfc, #f0fbff, #fafcff, #ffffff);
+ }
+ 
+
+
+
+
+

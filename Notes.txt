@@ -1,0 +1,116 @@
+## Colors
+primary: "#f4faf8",
+accent: "#02be86",
+text: "#6c7774",
+black: "#051c15",
+white: "#fff",
+lightGreen: "#e1f9f1",
+transparent: "transparent",
+
+## Texts
+Home
+Features
+Testimonials
+Pricing
+Blog
+
+
+Best Tool For Managing Projects And Files.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+
+Get Started
+
+
+Trusted by the industry leaders.
+
+
+FEATURES
+Features You Need To Manage Projects.
+
+<i class="fa-solid fa-bomb"></i>
+Fastest Way To Add Project
+It is a long established fact that a reader will be distracted by the readable.
+
+ <i class="fa-solid fa-bolt-lightning"></i>
+See Who Is Doing What Task
+It is a long established fact that a reader will be distracted by the readable.
+
+<i class="fa-solid fa-arrow-down-up-across-line"></i>
+Live
+It is a long established fact that a reader will be distracted by the readable.
+
+
+STEP#1
+
+Register & Add Your Team Members
+Cupiditate eaque aut voluptatum dolor in distinctio sed est provident. Dolores suscipit minima perspiciatis. Assumenda ut molestiae. Laudantium rem reprehenderit delectus et commodi. Quis voluptas molestias occaecati voluptatem a occaecati.
+
+Get Started
+
+STEP#2
+
+Add The Task To The Board & Assign To A Member
+Dolores beatae ex ea quo rerum. Sit excepturi doloremque excepturi. Occaecati et neque quia necessitatibus voluptates sint. Aut excepturi ut dicta rerum corrupti ratione officia. Assumenda ipsa ea et nihil.
+
+STEP#3
+
+Get The Assigned Work & Give Feadback
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.
+
+
+Vero officia quia illo corrupti earum nobis alias consequatur. Impedit quas et et. Eum sed est iure alias soluta. Facere tempore itaque. Aspernatur eaque architecto voluptatibus sapiente voluptate. Facere ducimus eligendi aut aut esse perspiciatis.
+
+Aaron Yundt
+CEO @Quick
+
+Vero officia quia illo corrupti earum nobis alias consequatur. Impedit quas et et. Eum sed est iure alias soluta. Facere tempore itaque. Aspernatur eaque architecto voluptatibus sapiente voluptate. Facere ducimus eligendi aut aut esse perspiciatis.
+
+Aaron Yundt
+CEO @Quick
+
+
+Simple & Transparent Pricing
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorum
+
+Basic
+$0 /month
+
+Lorem ipsum dolor
+Lorem ipsum dare
+sit amet cons
+Ipsum has
+Get Started
+
+Meet People Behind Blazing
+
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-linkedin-in"></i>
+
+linear-gradient(to bottom, #e1f9f1, #e6fbfc, #f0fbff, #fafcff, #ffffff)
+
+Blog
+Check Our Latest News & Articles
+
+Oct 25, 2022 By Jhon Doe
+Sed Perspiciatis Voluptatem, Quas Laudantium Doloribus Eveniet Enim. Read More.
+
+Read More
+
+
+Features
+
+Hero
+Features
+Options
+Blog
+Pricing
+Testimonials
+
+
+Sections
+
+Hero
+Features
+Options
+Testimonials
